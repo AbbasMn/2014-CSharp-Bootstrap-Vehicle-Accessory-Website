@@ -1,0 +1,320 @@
+/* Portolio Hover */
+.da-thumbs li ,
+.da-thumbs li  img {
+	display: block;
+	position: relative;
+	width: 100%;
+
+}
+.da-thumbs li  {
+	overflow: hidden;
+
+}
+.timeiran{    color: #fff !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block;
+
+}
+
+.da-thumbs li  article {
+	position: absolute;
+	background-repeat:repeat;
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li  article.da-animate {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}
+.da-thumbs li  article a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	height:100%;
+}
+
+.da-thumbs {
+text-align:center;
+}
+
+.da-thumbs li  article h3{
+color:#fff;
+
+}
+
+.da-thumbs li  article span{
+
+color:#fff;
+display:block;
+}
+
+
+.photo-icon i{
+	font-size:36px;
+	margin: 25% 0 0 0;
+	display:block;
+}
+.video-icon i{
+	font-size:36px;
+	margin: 20% 0 0 0;
+	display:block;
+}
+a.i{
+	text-decoration:none;
+}
+span.zoom{
+overflow:hidden;
+display:block;
+width:35px;
+height:35px;
+background-color:#DF6232;
+border-radius:50px;
+cursor:pointer;
+background-repeat:no-repeat;
+background-position:center;
+margin-left:10px;
+}
+
+.portfolio_2col article h3{
+padding-top:70px !important;
+}
+
+/* Image Grid */
+.image_grid {
+	float:left;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+
+}
+
+.image_grid li{
+	float: left;
+	line-height: 17px;
+	color: #686f74;
+	list-style:none;
+	overflow:hidden;
+
+	text-align:center;
+}
+
+
+/* Responsive image grid*/
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 480px) {
+	.image_grid{
+width:100%;
+}
+
+.image_grid li img{
+width:100%;
+}
+#portfolio-items-wrap .portfolio-item {
+width: 100% !important;
+}
+}
+@media only screen and (max-width: 767px) {
+
+.image_grid{
+width:100%;
+}
+
+.image_grid li img{
+width:100%;
+}
+
+
+
+}
+
+
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+.image_grid li{
+width:100% !important;
+}
+
+.portfolio_4col .da-thumbs li article h3{
+padding-top:58px;
+}
+
+.portfolio_3col .da-thumbs li article h3{
+padding-top:34px;
+}
+
+.portfolio_2col .da-thumbs li article h3{
+padding-top:23px !important;
+}
+
+}
+/* ----------------------------New Style----------------------------------- */
+
+body {
+	line-height: 2; 
+	direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6, .skdslider .slide-desc span.creative, .navbar-default .navbar-nav > li > a, textarea,input,.right-sec .recent-post .post a, .right-sec .archive a,#contact_form input,#contact_form textarea,#contact_form button {
+    font-family: yk;
+}
+p, span, .skdslider .slide-desc span.small-text,.blog .comments .comment-detail a {
+	font-family: is;
+}
+
+.da-thumbs h5 span{
+	margin: 10px 0;
+}
+
+/* ---------------------------Font Size------------------------------------ */
+
+.navbar-default .navbar-nav > li > a{
+	font-size: 20px; /* edit */
+}
+.team-sec .detail-left h4{
+	font-size: 25px;
+}
+
+.detail-left span
+{
+    font-family: yk;
+	font-size: 18px;
+}
+.da-thumbs h5 span{
+	font-size: 18px;
+}
+/* --------------------------Responsive(768-1200)------------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.team-sec .member {
+  		right: 33%;
+  		position: relative;
+  		top: -20px;
+}
+
+.pressroom .left-text span.title, .pressroom .right-text span.title {
+  text-align: right;
+}
+.da-thumbs h5 span{
+	font-size: 14px;
+}
+/* -------------Blog Style------------- */
+
+.blog .search a.search-bar {
+  color: #999999;
+  margin: 15px 0 0;
+  padding: 10px;
+  position: absolute;
+  right: 690px;
+}
+
+.blog p.post-detail {
+  font-size: 12px;
+}
+
+.blog .left-sec p {
+  font-size: 12px;
+}
+
+.blog .comments .comment-detail p {
+  font-size: 12px;
+}
+.blog .about-company p {
+  font-size: 12px;
+}
+
+/* test */
+h1{
+	font-size: 30px;
+}
+}
+/* --------------------------Responsive(320-767)------------------------ */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.team-sec .member {
+	  margin: 28px 0 0;
+	  position: relative;
+	  top: -34px;
+	  width: 34%;
+	  right: 33%;
+}
+	.skills {
+	  margin: 0 !important;
+	  padding-left: 17%;
+	  padding-right: 0;
+	  width: 83% !important;
+}
+.navbar-default .navbar-nav > li > a {
+  text-align: right;
+}
+.copyright p{
+	font-size: 10px;
+}
+/* -------------Blog Style------------- */
+.blog .search a.search-bar {
+  color: #999999;
+  margin: 14px 0 0;
+  padding: 10px;
+  position: absolute;
+  right: 86%;
+}
+
+.blog .tags a {
+  border: 1px solid #ccc;
+  color: #666;
+  float: right;
+  margin: 0 5px 5px 0;
+  padding: 10px 22px;
+}
+
+.blog p.post-detail {
+  font-size: 11px;
+}
+
+.blog .left-sec p {
+  font-size: 11px;
+}
+
+.blog .comments .comment-detail p {
+  font-size: 11px;
+}
+.blog .about-company p {
+  font-size: 11px;
+}
+
+.submit_btn {
+  left: 20% ;
+
+}
+
+}

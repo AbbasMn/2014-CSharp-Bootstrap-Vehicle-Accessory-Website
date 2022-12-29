@@ -1,0 +1,273 @@
+/*  ............. Designed By Websaz Group ... Email : Bazaei1@gmail.com ... Tel : +98 912 223 58 73 .............   */
+
+/*                     (((........... START CSS  ...........)))                     */
+
+/* Websaz.info ......................... Header ......................... Ehsan Bazaei  */
+
+body {
+margin: 0px auto;
+padding: 0px;
+font-family: Tahoma, Helvetica, sans-serif;
+font-size: 80%;
+color: #000000;
+background-color: #545756;
+background-image: url(images/bg2.gif);
+;
+}
+
+
+img {
+	border: 0;
+}
+
+.image {
+	border: 1px solid #808080;
+}
+.image-over {
+	border: 1px solid #f5e423;
+}
+
+
+
+
+/* Websaz.info ......................... Table ......................... Ehsan Bazaei  */
+
+.sample {
+background-color: #dbe6c9;
+background-image: url(images/logo.gif);
+background-repeat: no-repeat;
+height: 109px;
+width: 166px;
+PADDING-RIGHT: 5px;PADDING-TOP: 5px;PADDING-BOTTOM: 2px; PADDING-LEFT: 5px;
+}
+
+.tb0 {
+background-color: #132571;
+height: 5px;
+}
+
+.tb1 {
+width: 870px;
+height: 54px;
+background-color: #2c302f;
+}
+
+.tb1-1 {
+height: 25px;width: 90px;
+background-color: #9b9c9c;
+}
+
+.tb1-2 {
+background-color: #000000;width: 90px;
+}
+
+.tb1-3 {
+background-color: #2c302f;
+}
+
+.tb1-4 {
+background-color: #000000;width: 10px;
+}
+
+
+
+.tb2 {
+width: 870px;
+
+}
+
+
+.header {
+width: 859px;
+height: 166px;
+background-color: #060b18;
+}
+
+.maintext {
+PADDING-RIGHT: 10px;PADDING-TOP: 5px;PADDING-BOTTOM: 5px; PADDING-LEFT: 10px;
+}
+
+
+
+
+.stage {
+width: 870px;
+background-color: #2c302f;
+}
+
+.stage1 {
+PADDING-RIGHT: 5px;PADDING-TOP: 5px;PADDING-BOTTOM: 5px; PADDING-LEFT: 5px;
+}
+
+.stage2 {
+width: 259px;
+}
+
+.stage3 {
+PADDING-RIGHT: 5px;PADDING-TOP: 5px;PADDING-BOTTOM: 5px; PADDING-LEFT: 5px;
+}
+
+
+
+
+.sp1 {
+height: 3px;
+background-color: #f5e423;
+}
+
+.sp2 {
+height: 5px;
+background-color: #9b9c9c;
+}
+
+.sp3 {
+height: 10px;
+background-color: #9b9c9c;
+}
+
+.sp4 {
+height: 30px;
+background-color: #000000;
+}
+
+.sp5 {
+width: 20px;
+}
+
+.sp6 {
+PADDING-RIGHT: 5px;PADDING-TOP: 5px;PADDING-BOTTOM: 5px; PADDING-LEFT: 5px;
+}
+
+.sp7 {
+width: 45px;
+height: 45px;
+PADDING-RIGHT: 2px;PADDING-TOP: 2px;PADDING-BOTTOM: 2px; PADDING-LEFT: 2px;
+}
+
+.sp77 {
+width: 45px;
+PADDING-RIGHT: 2px;PADDING-TOP: 2px;PADDING-BOTTOM: 2px; PADDING-LEFT: 2px;
+}
+
+.sp8 {
+width: 220px;
+height: 45px;
+PADDING-RIGHT: 2px;PADDING-TOP: 2px;PADDING-BOTTOM: 2px; PADDING-LEFT: 2px;
+}
+
+.sp88 {
+width: 220px;
+PADDING-RIGHT: 2px;PADDING-TOP: 2px;PADDING-BOTTOM: 2px; PADDING-LEFT: 2px;
+}
+
+
+
+.sp {
+height: 15px;
+}
+
+
+
+/* Websaz.info ......................... form ......................... Ehsan Bazaei  */
+
+.search {
+color: #000000; font-size: 10px; font-family: Tahoma; border: 1px solid #999999; background-color: #ffffff
+}
+
+.search2 {
+color: #ffffff; font-size: 10px; font-family: Tahoma; border: 1px solid #ffffff; background-color: #5e6581
+}
+
+
+/* Websaz.info ......................... text ......................... Ehsan Bazaei  */
+
+
+.text1 {
+	TEXT-DECORATION: none; font-size: 12px; COLOR: #bebfbf;
+	font-family: tahoma;
+}
+A.text1:hover {
+	 COLOR: #000000;
+	 }
+
+
+
+.titr1 {
+	TEXT-DECORATION: none; COLOR: #F5E423;
+	font-family: Times New Roman;font-weight: bold;
+}
+A.titr1:hover {
+	 COLOR: #f1a424
+	 }
+
+.titr2{
+	TEXT-DECORATION: none; COLOR: #E8E8E8; font-size: 14px;
+	font-family: Times New Roman;font-weight: bold;
+}
+
+A.titr2:hover {
+	 COLOR: #f1a424
+	 }
+
+
+
+.link1 {
+	TEXT-DECORATION: none; font-size: 12px; COLOR: #000000;
+	font-family: tahoma;
+}
+A.link1:hover {
+	 COLOR: #000000
+}
+
+.link2 {
+	TEXT-DECORATION: none; font-size: 12px; COLOR: #b6b6b6;
+	font-family: tahoma;
+}
+A.link2:hover {
+	 COLOR: #f5e423
+	 }
+
+.link3 {
+	TEXT-DECORATION: none; font-size: 10px; COLOR: #b6b6b6;
+	font-family: tahoma;
+}
+A.link3:hover {
+	 COLOR: #ff0000
+	 }
+
+
+.date1 {
+	TEXT-DECORATION: none;font-size: 10px;font-family: Tahoma; COLOR: #969696;
+}
+A.date1:hover {
+	COLOR: #ee4220
+	}
+
+
+
+.textdown {
+	TEXT-DECORATION: none;font-size: 11px;font-family: Tahoma; COLOR: #666766;
+}
+A.textdown:hover {
+	COLOR: #e8d71a
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                          (((........... END CSS  ...........)))                          */
+
+/*  .............  w   w   w   .   w   e   b   s   a   z   .   i   n   f   o  .............   */

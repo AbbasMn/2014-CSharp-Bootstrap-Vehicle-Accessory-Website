@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "((Emami Bootstrap Web Site))", "D:\Programming\((My Web .Net Projects))\ASP.net with C#\((Emami Bootstrap Web Site))\", "{2AE69771-7C45-48D6-BB06-102A6FF7AC5A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/((Emami Bootstrap Web Site))"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Programming\((My Web .Net Projects))\ASP.net with C#\((Emami Bootstrap Web Site))\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\((Emami Bootstrap Web Site))\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/((Emami Bootstrap Web Site))"
+		Release.AspNetCompiler.PhysicalPath = "D:\Programming\((My Web .Net Projects))\ASP.net with C#\((Emami Bootstrap Web Site))\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\((Emami Bootstrap Web Site))\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59319"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE69771-7C45-48D6-BB06-102A6FF7AC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE69771-7C45-48D6-BB06-102A6FF7AC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
